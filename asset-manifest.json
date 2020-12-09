@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/santagenara/static/css/main.20661dde.chunk.css",
-    "main.js": "/santagenara/static/js/main.1a70440f.chunk.js",
-    "main.js.map": "/santagenara/static/js/main.1a70440f.chunk.js.map",
+    "main.js": "/santagenara/static/js/main.c315a40b.chunk.js",
+    "main.js.map": "/santagenara/static/js/main.c315a40b.chunk.js.map",
     "runtime-main.js": "/santagenara/static/js/runtime-main.b4fc4b39.js",
     "runtime-main.js.map": "/santagenara/static/js/runtime-main.b4fc4b39.js.map",
     "static/css/2.6e1d3da0.chunk.css": "/santagenara/static/css/2.6e1d3da0.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.6e1d3da0.chunk.css",
     "static/js/2.f361b722.chunk.js",
     "static/css/main.20661dde.chunk.css",
-    "static/js/main.1a70440f.chunk.js"
+    "static/js/main.c315a40b.chunk.js"
   ]
 }
