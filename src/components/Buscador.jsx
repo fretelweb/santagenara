@@ -1,7 +1,6 @@
 import { Component, Fragment } from 'react';
 
 class Buscador extends Component {
-  state = {};
   render() {
     return (
       <Fragment>
