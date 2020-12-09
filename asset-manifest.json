@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/santagenara/static/css/main.de1e2adf.chunk.css",
-    "main.js": "/santagenara/static/js/main.aa032a4b.chunk.js",
-    "main.js.map": "/santagenara/static/js/main.aa032a4b.chunk.js.map",
-    "runtime-main.js": "/santagenara/static/js/runtime-main.70f52e02.js",
-    "runtime-main.js.map": "/santagenara/static/js/runtime-main.70f52e02.js.map",
-    "static/js/2.b68abd86.chunk.js": "/santagenara/static/js/2.b68abd86.chunk.js",
-    "static/js/2.b68abd86.chunk.js.map": "/santagenara/static/js/2.b68abd86.chunk.js.map",
-    "static/js/3.ba2d0af4.chunk.js": "/santagenara/static/js/3.ba2d0af4.chunk.js",
-    "static/js/3.ba2d0af4.chunk.js.map": "/santagenara/static/js/3.ba2d0af4.chunk.js.map",
+    "main.css": "/santagenara/static/css/main.20661dde.chunk.css",
+    "main.js": "/santagenara/static/js/main.b19385b9.chunk.js",
+    "main.js.map": "/santagenara/static/js/main.b19385b9.chunk.js.map",
+    "runtime-main.js": "/santagenara/static/js/runtime-main.47412f7e.js",
+    "runtime-main.js.map": "/santagenara/static/js/runtime-main.47412f7e.js.map",
+    "static/css/2.6e1d3da0.chunk.css": "/santagenara/static/css/2.6e1d3da0.chunk.css",
+    "static/js/2.b2cd2c30.chunk.js": "/santagenara/static/js/2.b2cd2c30.chunk.js",
+    "static/js/2.b2cd2c30.chunk.js.map": "/santagenara/static/js/2.b2cd2c30.chunk.js.map",
+    "static/js/3.ede60d40.chunk.js": "/santagenara/static/js/3.ede60d40.chunk.js",
+    "static/js/3.ede60d40.chunk.js.map": "/santagenara/static/js/3.ede60d40.chunk.js.map",
     "index.html": "/santagenara/index.html",
-    "static/css/main.de1e2adf.chunk.css.map": "/santagenara/static/css/main.de1e2adf.chunk.css.map",
-    "static/js/2.b68abd86.chunk.js.LICENSE.txt": "/santagenara/static/js/2.b68abd86.chunk.js.LICENSE.txt"
+    "static/css/2.6e1d3da0.chunk.css.map": "/santagenara/static/css/2.6e1d3da0.chunk.css.map",
+    "static/css/main.20661dde.chunk.css.map": "/santagenara/static/css/main.20661dde.chunk.css.map",
+    "static/js/2.b2cd2c30.chunk.js.LICENSE.txt": "/santagenara/static/js/2.b2cd2c30.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/santagenara/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.70f52e02.js",
-    "static/js/2.b68abd86.chunk.js",
-    "static/css/main.de1e2adf.chunk.css",
-    "static/js/main.aa032a4b.chunk.js"
+    "static/js/runtime-main.47412f7e.js",
+    "static/css/2.6e1d3da0.chunk.css",
+    "static/js/2.b2cd2c30.chunk.js",
+    "static/css/main.20661dde.chunk.css",
+    "static/js/main.b19385b9.chunk.js"
   ]
 }
