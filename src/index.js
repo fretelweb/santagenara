@@ -1,3 +1,4 @@
+import '../node_modules/font-awesome/css/font-awesome.min.css';
 import './index.css';
 
 import React from 'react';
@@ -11,13 +12,18 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <Navegador />
-    <div class="grid grid-cols-2"></div>
+    <div className="grid grid-cols-2"></div>
     <div className="container mx-auto p-4 block">
-      <h2 className="page-title">Catalogo de Productos</h2>
-      <Buscador />
+      <div className="flex justify-between pb-10">
+        <h2 className="page-title">Catálogo de Productor</h2>
+        <Buscador />
+      </div>
       <ItemList />
     </div>
     <div className="bg-gray-300 p-40"></div>
+    <a href="/" className="whatsapp">
+      <i className="fa fa-whatsapp"></i>
+    </a>
   </React.StrictMode>,
   document.getElementById('root')
 );
