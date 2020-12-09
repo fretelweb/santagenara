@@ -10,7 +10,7 @@ import RegisterPage from './pages/RegisterPage';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename="/santagenara">
         <Navegador />
         <div className="container px-4">
           <Switch>
