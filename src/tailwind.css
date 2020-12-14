@@ -1,13 +1,16 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 .page-title {
-  @apply text-3xl text-green-900;
+  @apply text-3xl ;
 }
 
 input {
-  @apply border border-gray-200;
+  @apply border ;
 }
 
 body {
@@ -16,6 +19,8 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
+
+
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -25,5 +30,5 @@ code {
 }
 
 .whatsapp {
-  @apply bg-green-600 rounded-full text-white p-4 text-2xl w-24 h-24 items-center justify-center;
+  @apply rounded-full text-white p-4 text-2xl w-24 h-24 items-center justify-center;
 }
