@@ -1,26 +1,25 @@
 {
   "files": {
     "main.css": "/santagenara/static/css/main.b38efa46.chunk.css",
-    "main.js": "/santagenara/static/js/main.e9bb0125.chunk.js",
-    "main.js.map": "/santagenara/static/js/main.e9bb0125.chunk.js.map",
+    "main.js": "/santagenara/static/js/main.bd8ba5ca.chunk.js",
+    "main.js.map": "/santagenara/static/js/main.bd8ba5ca.chunk.js.map",
     "runtime-main.js": "/santagenara/static/js/runtime-main.150b450d.js",
     "runtime-main.js.map": "/santagenara/static/js/runtime-main.150b450d.js.map",
     "static/css/2.6e1d3da0.chunk.css": "/santagenara/static/css/2.6e1d3da0.chunk.css",
-    "static/js/2.ea1b8337.chunk.js": "/santagenara/static/js/2.ea1b8337.chunk.js",
-    "static/js/2.ea1b8337.chunk.js.map": "/santagenara/static/js/2.ea1b8337.chunk.js.map",
+    "static/js/2.669504e8.chunk.js": "/santagenara/static/js/2.669504e8.chunk.js",
+    "static/js/2.669504e8.chunk.js.map": "/santagenara/static/js/2.669504e8.chunk.js.map",
     "index.html": "/santagenara/index.html",
     "static/css/2.6e1d3da0.chunk.css.map": "/santagenara/static/css/2.6e1d3da0.chunk.css.map",
     "static/css/main.b38efa46.chunk.css.map": "/santagenara/static/css/main.b38efa46.chunk.css.map",
-    "static/js/2.ea1b8337.chunk.js.LICENSE.txt": "/santagenara/static/js/2.ea1b8337.chunk.js.LICENSE.txt",
-    "static/media/algarrobina.a7fe1581.png": "/santagenara/static/media/algarrobina.a7fe1581.png",
+    "static/js/2.669504e8.chunk.js.LICENSE.txt": "/santagenara/static/js/2.669504e8.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/santagenara/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/logo.0188ac2a.png": "/santagenara/static/media/logo.0188ac2a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.150b450d.js",
     "static/css/2.6e1d3da0.chunk.css",
-    "static/js/2.ea1b8337.chunk.js",
+    "static/js/2.669504e8.chunk.js",
     "static/css/main.b38efa46.chunk.css",
-    "static/js/main.e9bb0125.chunk.js"
+    "static/js/main.bd8ba5ca.chunk.js"
   ]
 }
