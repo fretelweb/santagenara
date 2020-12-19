@@ -1,35 +1,35 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-import Banner from './components/Banner';
-import Cabecera from './components/Cabecera';
-import Navegador from './components/Navegador';
-import CartPage from './pages/CartPage';
-import CatalogoPage from './pages/CatalogoPage';
-import HomePage from './pages/HomePage';
-import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
+import { Cabecera } from './components/Cabecera';
+import { CartContext } from './contexts/CartContext';
+import { ProductsContext } from './contexts/ProductsContext';
+import { items } from './data/productos';
+import { AppRouter } from './routers/AppRouter';
 
-class App extends Component {
-  render() {
-    return (
-      <Router basename="/santagenara">
-        <Cabecera />
-        <Navegador />
-        {/* <Banner /> */}
-        <div className="container mx-auto">
-          <Switch>
-            <Route path="/" component={CatalogoPage} exact />
-            <Route path="/register" component={RegisterPage} />
-            <Route path="/catalogo" component={CatalogoPage} />
-            <Route path="/login" component={LoginPage} />
-            <Route path="/cart" component={CartPage} />
-            <Route path="/inicio" component={HomePage} />
-          </Switch>
-        </div>
-      </Router>
-    );
-  }
-}
+export const App = () => {
+  const [cart, setCart] = useState([]);
+  const [products, setProducts] = useState([]);
 
-export default App;
+  useEffect(() => {
+    console.log('Cargando data');
+    setProducts([...items]);
+    // fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=a')
+    //   .then((data) => data.json())
+    //   .then((data) => data.meals)
+    //   .then((data) => setProducts([...data]));
+  }, []);
+
+  return (
+    <ProductsContext.Provider value={products}>
+      <CartContext.Provider value={{ cart, setCart }}>
+        <Router basename="/santagenara">
+          <Cabecera />
+          <div className="container mx-auto">
+            <AppRouter />
+          </div>
+        </Router>
+      </CartContext.Provider>
+    </ProductsContext.Provider>
+  );
+};
