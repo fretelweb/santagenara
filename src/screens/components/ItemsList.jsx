@@ -7,9 +7,7 @@ export const ItemsList = ({ items }) => {
     <Item key={prod.id} item={prod} />
   ));
 
-  return (
-    <div className="grid grid-cols-2 md:grid-cols-3  gap-4">{lista}</div>
-  );
+  return <div className="row">{lista}</div>;
 };
 
 ItemsList.propType = {};

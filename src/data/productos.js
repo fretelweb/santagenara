@@ -9,6 +9,7 @@ export const items = [
     uso:
       'Se consume directamente: puede ser acompañando en postres, ensaladas de frutas, jugos, refresco,infusiones, jarabes naturales, etc.',
     image: 'algarrobina_1000g.png',
+    precio: 200,
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export const items = [
     uso:
       'Se consume directamente: puede ser acompañando en postres, ensaladas de frutas, jugos, refresco,infusiones, jarabes naturales, etc.',
     image: 'algarrobina_500g.png',
+    precio: 100,
   },
   {
     id: 3,
@@ -31,5 +33,6 @@ export const items = [
     uso:
       'Se consume directamente: puede ser acompañando en postres, ensaladas de frutas, jugos, refresco,infusiones, jarabes naturales, etc.',
     image: 'algarrobina_250g.png',
+    precio: 50,
   },
 ];
